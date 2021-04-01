@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font: 16px Helvetica, Sans-Serif; */
+  line-height: 24px;
+  background: url(images/noise.jpg);
+  font-size: 18px;
+  font-family: 'Times New Roman', Sans-Serif;
+  color: #333333;
+}
+.clear {
+  clear: both;
+}
+#page-wrap {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+#pic {
+  float: right;
+  margin: 0px 20px 0 0;
+}
+h1 {
+  margin: 0 0 0 0;
+  padding: 16px 0 16px 0;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  /* border-bottom: 3px solid #DC143C; */
+  width: 360px;
+  float: left;
+  height: 80px;
+  color: #660000;
+}
+h2 {
+  font-size: 20px;
+  margin: 0 0 0 0;
+  position: relative;
+}
+h2 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+h3 {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+  position: relative;
+  font-style: italic;
+  color: #999;
+}
+p {
+  margin: 0 0 16px 0;
+}
+#contact {
+  font-size: 16px;
+  padding: 0 5px 0 16px;
+  width: 250px;
+  float: right;
+  /* border-left: 1px solid #999; */
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+a:hover {
+  border-bottom-style: solid;
+  color: black;
+}
+.icon {
+  color: #000000;
+  border-bottom: 0;
+}
+ul {
+  margin: 0 0 10px 25px;
+}
+ul span {
+  font-weight: bold;
+  font-family: Impact, Serif;
+  color: #000000;
+}
+#objective {
+  width: 500px;
+  float: left;
+}
+#objective p {
+  font-family: Georgia, Serif;
+}
+dt {
+  font-family: Impact, Charcoal, sans-serif;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  padding: 0 0 10px 0;
+  /* width: 150px; */
+  /* float: left; */
+  /* height: 100px; */
+  /* border-right: 1px solid #999; */
+}
+dd.rule {
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid #DC143C;
+  margin-bottom: 10px;
+}
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}

@@ -2,117 +2,134 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<link rel="stylesheet" href="index.css"
 
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-     <title>One Page Resume</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-     </style>
+     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
 <body>
 
     <div id="page-wrap">
-    
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
-    
+
+        <img src="images/kyunggeun-lee.jpg" width=15% id="pic" />
+
         <div id="contact-info" class="vcard">
-        
+
             <!-- Microformats! -->
-        
-            <h1 class="fn">C'thulhu</h1>
-        
-            <p>
-                Cell: <span class="tel">555-666-7777</span><br />
-                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a>
-            </p>
+
+            <h1 class="fn">Kyunggeun Lee</h1>
+
+            <div id="contact">
+                <a href="mailto:kyunggeun.k.lee@gmail.com">
+                    <i class="fas fa-envelope icon"></i> kyunggeun.k.lee@gmail.com
+                </a>
+                <br/>
+                <a href="https://github.com/kyunggeun-lee">
+                  <i class="fab fa-github icon"></i> kyungeun-lee
+                </a>
+                <br/>
+                <a href="https://www.linkedin.com/in/kyunggeun-lee-705180149">
+                    <i class="fab fa-linkedin icon"></i> Kyunggeun Lee
+                </a>
+            </contact>
         </div>
-                
+
         <div id="objective">
             <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
+              Graduate student in Software Platform Lab, SNU.
             </p>
         </div>
-        
+
         <div class="clear"></div>
-        
+
         <dl>
             <dd class="clear"></dd>
-            
+
             <dt>Education</dt>
+            <dd class="rule"/>
             <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
+                <h2>Seoul National University <span> Sep. 2019 - Aug. 2021 (expected), Seoul, South Korea</span></h2>
+                <h3> M.S. Student in Computer Science and Engineering </h3>
+                <h2>Seoul National University <span> Mar. 2013 - Aug. 2019, Seoul, South Korea</span></h2>
+                <h3> B.A. in Linguistics (Double Major: Computer Science and Engineering) </h3>
             </dd>
-            
+
             <dd class="clear"></dd>
-            
-            <dt>Skills</dt>
-            <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
+
             <dt>Experience</dt>
+            <dd class="rule"/>
             <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <h2>Software Platform Lab <span>Sep. 2019 - Current</span></h2>
+                <h3> Graduate Research Assistant </h3>
                 <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
+                    <li> Advised by Professor Byung‑Gon Chun. </li>
+                    <li> Designed and implemented an elastic distributed DNN training framework that auto‑scales
+                         and provides fault‑tolerance. Evaluated the systemon up to 256 transient cloud GPUs end to end,
+                         scaling in/out the training job automatically and dynamically. The manuscript is in preparation
+                         for submission to NeurIPS 2021. </li>
+                    <li> Performed research on resolving the CPU bottleneck of DNN input pipeline as a coauthor,
+                         providing theoretical analysis on the impact of reusingdata in data augmentation for DNN training.
+                         The manuscript is under review at ATC 2021. </li>
                 </ul>
-                
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+
+                <h2>Software Platform Lab <span>Jan. 2019 - Aug. 2019</span></h2>
+                <h3> Research Intern </h3>
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul> 
+                    <li> Advised by Professor Byung‑Gon Chun. </li>
+                    <li> Implemented and tested a performance debugging & optimization tool for DNN computation graphs. </li>
+                    <li> Accumulated experience in GPU kernel‑level profiling libraries by analyzing distributed DNN training jobs. </li>
+                </ul>
             </dd>
-            
+
             <dd class="clear"></dd>
-            
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-            
+
+            <dt>Honors & Awards</dt>
+            <dd class="rule"/>
+            <dd>
+                <ul>
+                    <li> <span> 2014 Fall Eminence Scholarship, Seoul National University, Full tuition </span> </li>
+                </ul>
+            </dd>
             <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
+
+            <dt>Teaching</dt>
+            <dd class="rule"/>
+            <dd>
+                <ul>
+                  <li> <span> Fall 2020 ‑ Spring 2021, Theory and Practice of IoT, AI, and Big Data (TA) </span>
+                       <br/> : Provided practice sessions on DNN training frameworks (TensorFlow and PyTorch). </li>
+                    <li> <span> Fall 2019, Principle and Practices of Software Development (TA) </span>
+                         <br/> : Provided 30 hours of lecture on full‑stack web service development. </li>
+                </ul>
+            </dd>
             <dd class="clear"></dd>
+
+            <dt>Skills</dt>
+            <dd class="rule"/>
+            <dd>
+                <h2>Programming Languages</h2>
+                <p> Python, C/C++, JavaScript, Java </p>
+
+                <h2>Natural Languages</h2>
+                <p> Korean (native), English, Japanese, Chinese </p>
+
+                <h2> Tools and Frameworks </h2>
+                <p> TensorFlow, PyTorch, Horovod, NumPy, Matplotlib, React, Angular, Django, NVIDIA CUPTI, Nsight Systems </p>
+
+                <!--
+                <h2> Platforms </h2>
+                <p> xxx </p>
+                -->
+            </dd>
+
+            <dd class="clear"></dd>
+
         </dl>
-        
+
         <div class="clear"></div>
-    
+
     </div>
 
 </body>
